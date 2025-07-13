@@ -33,7 +33,7 @@ const Portfolio: React.FC = () => {
   return (
     <section className="portfolio-section">
       <header className="portfolio-header">
-        <h2 className="portfolio_header">Makeup Portfolio</h2>
+        <h2 className="portfolio_header">Portfolio</h2>
         <p>A showcase of our artistry and creativity</p>
       </header>
       <div className="portfolio-grid">

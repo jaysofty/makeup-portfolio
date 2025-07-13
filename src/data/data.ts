@@ -1,8 +1,8 @@
  export const navLinks = [
-  { label: "Home", href: "/" },
-  { label: "About us", href: "/about" },
-  { label: "Jobs", href: "/jobs" },
-  { label: "Contact us", href: "/contact" },
+  { label: "Home", href: "#home" },
+  { label: "About us", href: "#about" },
+  { label: "Jobs", href: "#jobs" },
+  { label: "Contact us", href: "#contact" },
 
 ];
  export const footerSections = [

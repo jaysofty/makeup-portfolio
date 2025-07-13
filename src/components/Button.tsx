@@ -20,7 +20,7 @@ interface Props {
 
 const Button = ({
   children,
-  type = "",
+  type = "submit",
   onClick,
   centered = false,
   stretched = false,
@@ -40,7 +40,7 @@ const Button = ({
 
   return (
     <button
-      className={`${baseClass} ${colorClass} ${roundedClass} ${stretchedClass} ${centeredClass}`}
+      className={`${baseClass} ${colorClass} ${roundedClass} ${stretchedClass} ${centeredClass} ${type}`}
       onClick={onClick}
     >
       {children}
