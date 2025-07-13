@@ -1,7 +1,7 @@
  export const navLinks = [
   { label: "Home", href: "#home" },
   { label: "About us", href: "#about" },
-  { label: "Jobs", href: "#jobs" },
+  { label: "Jobs", href: "#portfolio" },
   { label: "Contact us", href: "#contact" },
 
 ];
@@ -33,3 +33,4 @@
   },
 
 ];
+
