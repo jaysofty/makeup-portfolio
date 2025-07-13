@@ -1,24 +1,34 @@
-import { useState } from "react";
-import Button from "./Button";
+import React from "react";
 
 interface Props {
   children: string;
   maxChars?: number;
+  className?: string;
 }
 
-const ExpandableText = ({ children, maxChars = 100 }: Props) => {
-  const [isExpanded, setExpanded] = useState(false);
+const ExpandableText = ({
+  children,
+  maxChars = 100,
+  className = "",
+}: Props) => {
+  const [expanded, setExpanded] = React.useState(false);
 
-  if (children.length <= maxChars) return <p>{children}</p>;
+  if (children.length <= maxChars)
+    return <span className={className}>{children}</span>;
 
-  const text = isExpanded ? children : children.substring(0, maxChars);
+  const summary = children.substring(0, maxChars) + "...";
+
   return (
-    <p>
-      {text}...
-      <Button color="secondary" onClick={() => setExpanded(!isExpanded)}>
-        {isExpanded ? "Less" : "Readmore"}
-      </Button>{" "}
-    </p>
+    <span className={className}>
+      {expanded ? children : summary}
+      <button
+        onClick={() => setExpanded(!expanded)}
+        className="btn btn-link btn-sm ps-2"
+        style={{ fontSize: "1.4rem" }}
+      >
+        {expanded ? "Show Less" : "Read More"}
+      </button>
+    </span>
   );
 };
 

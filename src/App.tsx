@@ -14,7 +14,7 @@ function App() {
     {
       imageSrc: image,
       quote: (
-        <ExpandableText maxChars={100}>
+        <ExpandableText maxChars={100} className="text-dark">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet impedit
           magnam maiores modi aspernatur saepe voluptatibus fugiat quisquam
           dicta.
@@ -26,8 +26,8 @@ function App() {
     {
       imageSrc: kunzy,
       quote: (
-        <ExpandableText maxChars={100}>
-          This was a stunning transformation and a very professional experience!
+        <ExpandableText maxChars={100} className="text-dark">
+          This was a stunning transformation and a very professional experience
         </ExpandableText>
       ),
       author: "Jane Smith",
