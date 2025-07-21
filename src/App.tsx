@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 import NavBar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import { footerSections, navLinks } from "./data/data";
-import image from "./assets/about_image.jpg";
+import image from ".//assets/about_image.jpg";
 import kunzy from "./assets/kunzy.jpg";
 import TestimonialCarousel from "./components/TestimonialCarousel";
 

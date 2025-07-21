@@ -26,7 +26,7 @@ const TestimonialCarousel: React.FC<Props> = ({ testimonials }) => {
             key={index}
             style={{ display: "block" }}
           >
-            <div className="container py-4 bg-dark text-black rounded shadow">
+            <div className="container py-4 bg-gradient text-black rounded shadow">
               <TestimonialCard {...testimonial} />
             </div>
           </div>

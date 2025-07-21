@@ -46,7 +46,7 @@ const NavBar: React.FC<NavBarProps> = ({ navItems, brandHref = "#" }) => {
       >
         <div className="nav__topbar">
           <a className="nav__brand" href={brandHref}>
-            <span className="brand__text">Bando</span>
+            <span className="brand__text">Bando_Gele...</span>
           </a>
           <button
             className="nav__toggler"

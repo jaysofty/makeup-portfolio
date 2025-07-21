@@ -2,7 +2,7 @@
   { label: "Home", href: "#home" },
   { label: "About us", href: "#about" },
   { label: "Jobs", href: "#portfolio" },
-  { label: "Contact us", href: "#contact" },
+  // { label: "Contact us", href: "#contact" },
 
 ];
  export const footerSections = [
@@ -10,25 +10,22 @@
     title: "Products",
     expanded: true,
     links: [
-      { label: "Website Hosting", href: "#" },
-      { label: "Free Automated Wordpress", href: "#" },
-      { label: "Migrations", href: "#" },
+    
+      { label: "Training", href: "#" },
     ],
   },
   {
     title: "Company",
     links: [
-      { label: "About", href: "#" },
-      { label: "Affiliates", href: "#" },
-      { label: "Blog", href: "#" },
+      { label: "Bando Gele", href: "#" },
+     
     ],
   },
   {
     title: "Support",
     links: [
-      { label: "Contact", href: "#" },
-      { label: "Knowledge Base", href: "#" },
-      { label: "Help Center", href: "#" },
+      { label: "Contact: bandoamba@gmail.com", href: "#" },
+     
     ],
   },
 

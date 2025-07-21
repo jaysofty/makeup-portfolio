@@ -8,22 +8,22 @@ interface PortfolioItem {
 
 const portfolioItems: PortfolioItem[] = [
   {
-    image: "../",
+    image: "/assets/bridal_1.jpeg",
     alt: "Bridal Makeup",
     title: "Bridal Glam",
   },
   {
-    image: "images/makeup2.jpg",
+    image: "/assets/editorial.jpeg",
     alt: "Editorial Makeup",
     title: "Editorial Look",
   },
   {
-    image: "images/makeup3.jpg",
+    image: "/assets/party_glow.jpeg",
     alt: "Party Makeup",
     title: "Party Glow",
   },
   {
-    image: "images/makeup4.jpg",
+    image: "/assets/natural.jpeg",
     alt: "Natural Makeup",
     title: "Soft Natural",
   },
@@ -41,7 +41,7 @@ const Portfolio: React.FC = () => {
           <div key={index} className="portfolio-item">
             <img src={item.image} alt={item.alt} />
             <div className="portfolio-caption">
-              <h3>{item.title}</h3>
+              <h3 className="portfolio__titlle">{item.title}</h3>
             </div>
           </div>
         ))}
